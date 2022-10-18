@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import NavBar from './components/navbar';
+import Modal from './components/modal';
 import './App.css';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         }
         <button className='btn btn-warning' onClick={() => setChange(!change)}>One More?</button>
       </div>
+      <Modal />
     </div>
   );
 }
