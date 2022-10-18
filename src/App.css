@@ -7,6 +7,34 @@
   pointer-events: none;
 }
 
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vh;
+  align-items: center;
+  border: 3px solid rgb(189, 13, 13);
+  box-shadow: 10px 5px 5px red;
+}
+.alert{
+  margin: 40px;
+}
+
+.heading{
+  padding: 20px;
+  border-bottom: 2px solid orange;
+}
+
+.btn{
+  margin: 15px;
+}
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
